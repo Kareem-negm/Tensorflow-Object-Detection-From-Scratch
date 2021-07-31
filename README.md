@@ -1,4 +1,7 @@
 # Tensorflow-Object-Detection-From-Scratch-
+## Instrucures:
+- If you face any Error make an issue and I will try to help you but please google it first and if you get the solution put it in the [Error Guide](https://github.com/Kareem-negm/Tensorflow-Object-Detection-From-Scratch-/blob/main/Error%20Guide.md) here you can see the common errors 
+
 
 # 1. Installation and Setup
 
@@ -25,7 +28,14 @@ you can check from [here](https://www.tensorflow.org/install/source_windows)
 
 - **Install Protoc for Protocol Buffers from the official Github Repo [protoc-3.17.3-win64](https://github.com/protocolbuffers/protobuf/releases/download)**
 
-when you extract the folder I recomend to add it in the followin path you creat `C:\additondalpackges\`
+when you extract the folder I recomend to add it in the followin path you creat `C:\additondalpackges\research`  
 
-dont's miss to add protoc bin path to the system envairnment 
+
+dont's miss to add protoc bin path to the system envairnment `PC-properties -advanced system setting -environment variable `
+
+- **Install Tensorflow Object Detection API for use with Python**
+clone this repo here https://github.com/tensorflow/models in Git command 
+and move your command insid the model folder `cd model ` then write this command `protoc object_detection/protos/*.proto --python_out-.` enter then `copy object_detection/packages/tf2/serup.py .` enter 
+then ` python -m pip install .` this will install all of the dependacies like OpenCV , Tensroflw and the other library that we need for our object detection library 
+
  
