@@ -9,12 +9,12 @@
 
 follow this link to install [ananconda](https://repo.anaconda.com/archive/)
 
-- **nstall Microsoft Visual Studio and C++ Build Tools**
+- **install Microsoft Visual Studio and C++ Build Tools**
 
 follw this link to install [Visual studio ](https://visualstudio.microsoft.com/vs/community/)
 after install visual studio install `desktop development with c++` packge inside the VS 
 
-- **install CUDA Toolkit 10.1 original Archive to speed up your training time and used GPU during the training processing **
+- **install CUDA Toolkit 10.1 original Archive to speed up your training time and used GPU during the training processing**
 
 follw this link to install [CUDA Toolkit](https://developer.nvidia.com/cuda-10.1-download-archive-base)
 
@@ -39,3 +39,15 @@ and move your command insid the model folder `cd model ` then write this command
 then ` python -m pip install .` this will install all of the dependacies like OpenCV , Tensroflw and the other library that we need for our object detection library 
 
  
+# 2. Collecting  Images Using Your Webcam
+
+You can collect the images in the way you prefer, but always remember that the data used for training is similar to the type of data in the test case and similar to the reality that you will deploy the model on, otherwise the detection will be very difficult and inaccurate
+
+# 3.Labelling Images for Object Detection using LabelImg
+
+LabelImg is a graphical image annotation tool.
+It is written in Python and uses Qt for its graphical interface.
+Annotations are saved as XML files in PASCAL VOC format, the format used by ImageNet. Besides, it also supports YOLO and CreateML formats.
+you can learn more about LabelImg and how can use it thro the official [LabelImg](https://github.com/tzutalin/labelImg) Repo
+
+![](https://raw.githubusercontent.com/tzutalin/labelImg/master/demo/demo3.jpg)
